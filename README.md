@@ -3,9 +3,7 @@ An Android application to classify ingredients, then fetch recipes using the cla
 
 If the original classification is incorrect, the user has the option to select a class out of the Top-5 highest probability predictions.
 
-<p align="centre">
 ![GIF Demo](Demo.gif)
-</p>
 
 ## Project Structure
 With there being multiple compontents of the app (the CNN being trained, the server used to host the CNN for classification, the Android app itself), I've tried to separate each into its own sub-directory:
