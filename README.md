@@ -1,6 +1,8 @@
 # Mobile-Recipe-Generator
 An Android application to classify ingredients, then fetch recipes using the classification.
 
+![GIF Demo](Demo.gif)
+
 ## Project Structure
 With there being multiple compontents of the app (the CNN being trained, the server used to host the CNN for classification, the Android app itself), I've tried to separate each into its own sub-directory:
 

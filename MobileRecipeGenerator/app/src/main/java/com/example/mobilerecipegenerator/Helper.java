@@ -1,7 +1,7 @@
 package com.example.mobilerecipegenerator;
 
 public class Helper {
-    public static final String UPLOAD_URL = "http://192.168.1.253:5000/predict";
+    public static final String UPLOAD_URL = "http://192.168.1.88:5001/predict";
     //public static final String UPLOAD_URL = "http://10.0.2.2:5000/predict";
 
     public static String adjustClassificationName(String currentName){
