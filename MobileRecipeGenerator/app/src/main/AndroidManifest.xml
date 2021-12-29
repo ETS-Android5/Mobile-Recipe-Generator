@@ -34,8 +34,8 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+            android:label="Home"
             android:exported="true"
-            android:label="Main"
             android:theme="@style/Theme.MobileRecipeGenerator.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

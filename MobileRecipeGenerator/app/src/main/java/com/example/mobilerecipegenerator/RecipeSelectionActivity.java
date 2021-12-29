@@ -41,8 +41,6 @@ public class RecipeSelectionActivity extends AppCompatActivity {
 
         String ingredient = getIntent().getStringExtra("ClassificationResult");
 
-        System.out.println("-----------------------" + ingredient);
-
         Thread thread = new Thread(() -> {
             OkHttpClient client = new OkHttpClient();
             Request request = new Request.Builder()
@@ -65,11 +63,10 @@ public class RecipeSelectionActivity extends AppCompatActivity {
         thread.start();
         try {
             thread.join();
-            System.out.println("Joined");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("Reached");
+
         ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, recipeNameList);
 
         listView.setAdapter(arrayAdapter);

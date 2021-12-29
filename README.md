@@ -12,9 +12,9 @@ With there being multiple compontents of the app (the CNN being trained, the ser
 ## Training the CNN
 When training the neural network, I used the *Fruits 360* dataset. 
 
-With the size of the dataset being so large, I decided to exclude it from the repository, but can be found here [here]().
+With the size of the dataset being so large, I decided to exclude it from the repository, but can be found [here](https://www.kaggle.com/moltean/fruits).
 
-I also removed a large number of classes from the dataset (62 classes remain) as it contained objects not commonly seen in UK supermarkets - the class list can be seen in _________.
+I also removed a large number of classes from the dataset (62 classes remain) as it contained objects not commonly seen in UK supermarkets - the class list can be seen under *Python Code > FlaskServer > app.py > class_types*.
 
 ## Running the Flask Server
 To run the server locally, simply start the *app.py* script.
